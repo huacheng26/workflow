@@ -1,0 +1,27 @@
+.header{
+  height: 52px;
+  width: 100%;
+  padding: 0px 15px;
+}
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 10px 25px 10px 40px;
+  float: left;
+}
+.headpic{
+  background: #f56a00;
+  verticalAlign: middle;
+  float:right;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+.iconstyle{
+  width:52px;
+  height: 52px;
+  color: #ffffff;
+  font-size: 20px ;
+  line-height: 52px;
+  float: right
+}

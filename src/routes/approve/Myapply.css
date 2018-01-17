@@ -1,0 +1,102 @@
+.laytype{
+  margin: 0px;
+  margin-bottom: 0px;
+  padding:0px 15px;
+  background: #f0f2f5;
+}
+.headertop{
+  height: 50px;
+  padding: 0px 15px;
+  padding-top: 2px;
+  line-height: 40px;
+  background: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.buttontop{
+  height: 40px;
+  padding: 0px;
+  border: none;
+}
+.iconstyle{
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+
+.list{
+}
+.listitem{
+  padding: 5px;
+  background: #ffffff;
+  margin-bottom: 8px;
+  border-bottom: 0px solid #ffffff;
+  border-radius: 2px;
+}
+.header{
+  background: #ffffff;
+  padding: 0px;
+  height: 30px;
+}
+.listhead{
+  line-height: 20px;
+}
+.content{
+  background: #ffffff;
+  padding: 5px 5px;
+}
+.headpic{
+
+  float: left;
+  margin-right: 5px;
+  background: #f56a00;
+}
+.contentspan{
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 25px;
+  height: 15px;
+}
+.contentspanr{
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 45px;
+  height: 15px;
+}
+.follow{
+  background: #ffffff;
+}
+
+.footer{
+  background: #ffffff;
+  padding: 10px 10px;
+  padding-left: 40px;
+}
+.followbotton{
+  margin-top: 30px;
+  float: right;
+}
+.example_input {
+  width: 200px;
+  margin: 8px 8px 4px 0px;
+  float: left;
+}
+.select{
+  margin-top: 4px;
+  float: left;
+}
+
+.colstyle{
+  height: 45px;
+}
+.iconst{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: right;
+  color: #999999;
+}

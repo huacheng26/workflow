@@ -1,0 +1,64 @@
+.headertop{
+  height: 40px;
+  padding: 0px 15px;
+  line-height: 40px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.buttontop{
+  height: 40px;
+  padding: 0px;
+  border: none;
+}
+.iconstyle{
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+
+.list{
+}
+.listitem{
+  padding: 15px;
+  background: #ffffff;
+  margin-bottom: 8px;
+  border-bottom: 0px solid #ffffff;
+  border-radius: 2px;
+}
+.header{
+  background: #ffffff;
+  padding: 0px;
+  height: 30px;
+}
+.listhead{
+  line-height: 20px;
+}
+.content{
+  background: #ffffff;
+  padding: 15px 0px;
+}
+.contenticon{
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  background: #f56a00;
+}
+.contentspan{
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 15px;
+  height: 15px;
+}
+
+.footer{
+  background: #f0f2f5;
+  padding: 10px 10px;
+}
