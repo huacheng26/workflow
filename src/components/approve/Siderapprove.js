@@ -11,7 +11,7 @@ function Siderapprove() {
     <Sider width={200} className={styles.leftall}>
       <div className={styles.userInfo}>
         <div className={styles.userdetails}>
-          <Button type="primary" icon="plus">新建审批</Button>
+          <Link to="/approve/addapproveindex"><Button type="primary" icon="plus">新建审批</Button></Link>
         </div>
       </div>
       <Menu
