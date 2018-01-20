@@ -18,6 +18,7 @@ import Exportlist from './routes/approve/Exportlist';
 import Settype from './routes/approve/Settype';
 import Setprocess from './routes/approve/Setprocess';
 import Addapproveindex from './routes/approve/Addapproveindex';
+import Addflow from './routes/approve/Addflow';
 import App from './routes/App';
 
 
@@ -49,6 +50,7 @@ function RouterConfig({ history }) {
           <Route path="settype" component={Settype} />
           <Route path="setprocess" component={Setprocess} />
           <Route path="addapproveindex" component={Addapproveindex} />
+          <Route path="addflow" component={Addflow} />
         </Route>
       </Route>
     </Router>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'dva';
-import styles from './Setprocess.css';
+import { Link } from 'dva/router';
 import { Menu, Dropdown, List, Avatar, Layout, Icon, Button, Row, Col, Input, Select, Radio, Switch, Divider } from 'antd';
+import styles from './Setprocess.css';
 
 const { Header, Footer, Content } = Layout;
 const Option = Select.Option;
@@ -67,7 +68,7 @@ function Setprocess() {
       <Header className={styles.headertop}>
         <Row type="flex" className={styles.colstyle}>
           <Col span={10} order={1} className={styles.colstyle}>
-            <Button>添加流程</Button>
+            <Link to="/approve/addflow"><Button>添加流程</Button></Link>
           </Col>
           <Col span={12} order={1}>
             <div className={styles.select}>
