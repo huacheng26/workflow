@@ -7,6 +7,13 @@ const { Header, Footer, Content } = Layout;
 const Option = Select.Option;
 const FormItem = Form.Item;
 const { TextArea } = Input;
+const RadioGroup = Radio.Group;
+
+const radioStyle = {
+  display: 'block',
+  height: '30px',
+  lineHeight: '30px',
+};
 
 const props = {
   action: '//jsonplaceholder.typicode.com/posts/',
@@ -46,8 +53,8 @@ function Addflow() {
           </Col>
         </Row>
       </Header>
-      <Content style={{ height: '300px', overflow: 'auto' }}>
-        <Form>
+      <Content className={styles.formstyle} style={{ height: '300px', overflow: 'auto' }}>
+        <Form >
           <FormItem
             labelCol={{ span: 2 }}
             wrapperCol={{ span: 4 }}
@@ -161,7 +168,31 @@ function Addflow() {
               </Content>
             </Layout>
           </FormItem>
-
+          <FormItem
+            labelCol={{ span: 2 }}
+            wrapperCol={{ span: 4 }}
+            label="使用范围"
+          >
+            <Input addonAfter={<Icon type="usergroup-add" />} placeholder="请选择使用范围" />
+          </FormItem>
+          <FormItem
+            labelCol={{ span: 2 }}
+            wrapperCol={{ span: 4 }}
+            label="使用范围"
+          ><RadioGroup value="1">
+            <Radio style={radioStyle} value="1">自由流程（申请人手动选择审批人）</Radio>
+            <Radio style={radioStyle} disabled="disabled" value="2">固定流程（申请单按照规定好的审批人进行流转）</Radio>
+          </RadioGroup>
+          </FormItem>
+          <FormItem
+            labelCol={{ span: 2 }}
+            wrapperCol={{ span: 12 }}
+          >
+            <Divider />
+            <Button type="primary" className={styles.padleft}>提交</Button>
+            <Button className={styles.padleft}>预览</Button>
+            <Button type="dashed" className={styles.padleft}>取消</Button>
+          </FormItem>
         </Form>
       </Content>
     </Layout>

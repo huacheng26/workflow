@@ -34,7 +34,7 @@ function RouterConfig({ history }) {
           <Route path="contact" component={Contacts} />
         </Route>
         <Route path="worklink" component={Worklinks} >
-          <IndexRoute component={Myworklink} />
+          <IndexRoute component={Allworklink} />
           <Route path="myworklink" component={Myworklink} />
           <Route path="allworklink" component={Allworklink} />
         </Route>
