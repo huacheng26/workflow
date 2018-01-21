@@ -7,6 +7,12 @@ import Contacts from './routes/work/Contacts';
 import Worklinks from './routes/worklink/Worklinks';
 import Myworklink from './routes/worklink/Myworklink';
 import Allworklink from './routes/worklink/Allworklink';
+import Typemanage from './routes/worklink/Typemanage';
+import Formmanage from './routes/worklink/Formmanage';
+import Templatemanage from './routes/worklink/Templatemanage';
+import Exportlistwork from './routes/worklink/Exportlist';
+import Templatemarket from './routes/worklink/Templatemarket';
+import Deletework from './routes/worklink/Delete';
 import Approves from './routes/approve/Approves';
 import Myapprove from './routes/approve/Myapprove';
 import Myapply from './routes/approve/Myapply';
@@ -37,6 +43,12 @@ function RouterConfig({ history }) {
           <IndexRoute component={Allworklink} />
           <Route path="myworklink" component={Myworklink} />
           <Route path="allworklink" component={Allworklink} />
+          <Route path="typemanage" component={Typemanage} />
+          <Route path="formmanage" component={Formmanage} />
+          <Route path="templatemanage" component={Templatemanage} />
+          <Route path="exportlist" component={Exportlistwork} />
+          <Route path="templatemarket" component={Templatemarket} />
+          <Route path="delete" component={Deletework} />
         </Route>
         <Route path="approve" component={Approves} >
           <IndexRoute component={Myapply} />

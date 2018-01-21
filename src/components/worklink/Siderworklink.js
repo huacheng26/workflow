@@ -44,7 +44,7 @@ function Siderworklink() {
           </Link>
         </Menu.Item>
         <Menu.Item key="10">
-          <Link to="/worklink/delect">
+          <Link to="/worklink/delete">
             <Icon type="delete" />
             <span>回收站</span>
           </Link>
