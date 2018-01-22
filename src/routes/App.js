@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import { Layout } from 'antd';
+
 import Headdiv from '../components/headdiv/Headdiv';
 import styles from './App.css';
 
